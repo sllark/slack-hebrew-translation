@@ -1,13 +1,15 @@
 {
   "manifest_version": 2,
-  "name": "Slack Hebrew",
-  "version": "1.5",
-  "description": "In Slack web app: modify direction to rtl, but only for messages containing hebrew characters",
+  "name": "Slack in Hebrew",
+  "version": "1.0",
+  "description": "In Slack web app: translate the complete app and layout to Hebrew so anyone who knows Hebrew can use Slack without any difficulty. The direction of layout is set to rtl and its interface is in Hebrew.",
   "icons" : { "128": "icon.png" }, 
-  "author": "Shlomi Matichin <shlomomatichin@gmail.com>",
+  "author": "AbdulRehman <abdulrehman.6ab@gmail.com>",
 
   "page_action": {
-    "default_title": "Slack Hebrew"
+    "default_title": "Slack in Hebrew",
+    "default_popup": "popup.html",
+    "default_icon" : { "128": "icon.png" }
   },
  
   "content_scripts": [{
